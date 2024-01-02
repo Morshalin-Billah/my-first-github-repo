@@ -3,3 +3,36 @@
     padding: 10px;
     margin: 7px;
 }
+
+.header {
+    position: relative;
+    width: 100%;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: aqua;
+    width: 84%;
+    margin: auto;
+
+
+}
+
+nav img {
+    height: 50px;
+    width: 50px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul li {
+    margin: 7px;
+    list-style: none;
+}
